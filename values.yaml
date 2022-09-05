@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: nginx
@@ -7,7 +7,7 @@ image:
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8080
 
 autoscaling:
   enabled: false
